@@ -1,19 +1,56 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     color: #434455;
+    margin: 0;
 }
 
-/* Section header */
+
+/* Reset styles */
 ul,ol {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 a {
+    color: currentColor;
     text-decoration: none;
 }
-button {
-    cursor: pointer;
+
+p {
+margin: 0;
 }
+
+button {
+    font-family: inherit;
+    color: currentColor;
+    background-color: transparent;
+    cursor: pointer;  
+}
+
+/* Common styles */
+.container {
+    max-width: 1168px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  /* Можливо потім видалити */
+    outline: 2px solid red;
+    outline-offset: -2px;
+  }
+
+/* Section header */
 .main_header {
 background: #FFF;
 }
