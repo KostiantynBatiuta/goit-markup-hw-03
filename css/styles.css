@@ -32,6 +32,7 @@ ul,ol {
     padding: 0;
     list-style-type: none;
 }
+
 a {
     color: currentColor;
     text-decoration: none;
@@ -287,12 +288,14 @@ letter-spacing: 0.02em;
 .section_footer {
 background-color: #2E2F42;
 height: 312px;
-padding: 100 px 0;
+padding: 100px 0;
 }
 
 .main_footer {
 background-color: #2E2F42;
-
+width: 264px;
+height: 112px;
+padding: 100 1020 100;
 }
 
 .logo_footer {
@@ -320,5 +323,5 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 264px;
-padding: 140 1020 100 156;
+padding: 140 1020 100;
 }
