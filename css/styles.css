@@ -68,6 +68,8 @@ background: #FFF;
 border-bottom: 1px solid #E7E9FC;
 margin: 0 auto;
 padding: 0 15px 0 15px;
+display: flex;
+align-items: center;
 }
 .nav {
 color:#2E2F42;
@@ -87,10 +89,14 @@ text-transform: uppercase;
 .span_logo {
 color:#2E2F42;
 }
-.nav-list a {
+.nav-list {
 text-decoration: none;
 list-style-type: none;
-display: flex;
+display: inline-flex;
+align-items: flex-start;
+gap: 40px;
+width: 261px;
+height: 24;
 padding: 24px 0 24px;
 color:#2E2F42;
 font-family: Roboto;
