@@ -108,6 +108,7 @@ color:#404BBF;
 
 .nav_item_studio:active {
 text-decoration: underline;
+margin-right: 40px;
 }
 
 .address_header {
