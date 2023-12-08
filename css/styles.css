@@ -285,6 +285,7 @@ letter-spacing: 0.02em;
 /* Footer */
 .main_footer {
 background-color: #2E2F42;
+padding: 100 px 0;
 }
 
 .logo_footer {
@@ -296,6 +297,8 @@ background-color: #2E2F42;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase; 
+    margin-bottom: 16px;
+    display: inline-block;
 }
 .span_logo_footer {
 color: #f4f4fd;
@@ -309,4 +312,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+max-width: 264px;
+padding: 140 1020 100 156;
 }
