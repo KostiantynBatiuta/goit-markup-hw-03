@@ -65,9 +65,14 @@ display: flex;
 /* Section header */
 .main_header {
 background: #FFF;
+border-bottom: 1px solid #E7E9FC;
+margin: 0 auto;
+padding: 0 15px 0 15px;
 }
 .nav {
 color:#2E2F42;
+align-items: center;
+display: flex;
 }
 .logo {
 color:#4D5AE5;
@@ -83,6 +88,10 @@ text-transform: uppercase;
 color:#2E2F42;
 }
 .nav-list a {
+text-decoration: none;
+list-style-type: none;
+display: flex;
+padding: 24px 0 24px;
 color:#2E2F42;
 font-family: Roboto;
 font-size: 16px;
