@@ -285,11 +285,13 @@ letter-spacing: 0.02em;
 
 /* Footer */
 
+.container_footer {
+background-color: #2E2F42;
+}
+
 .main_footer {
 background-color: #2E2F42;
-width: 264px;
-height: 112px;
-padding: 100 1020 100;
+;
 }
 
 .logo_footer {
@@ -317,7 +319,5 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-max-width: 264px;
-height: 72px;
-padding: 140 1020 100 156;
+
 }
