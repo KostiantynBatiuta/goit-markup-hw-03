@@ -74,7 +74,7 @@ padding-bottom: 120px;
 border-bottom: 1px solid #E7E9FC;
 }
 
-.header_container {
+.header_container .container {
  display: flex;
  justify-content: space-between;
  column-gap: 40px;
