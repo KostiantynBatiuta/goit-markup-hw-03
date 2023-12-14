@@ -251,7 +251,7 @@ margin-bottom: 120px;
 }
 
 .advantage_item {
-width: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 72px) / 4);    
 }
 
 .advantage {
@@ -272,7 +272,7 @@ letter-spacing: 0.02em;
 /* Section three*/
 
 .container_our_team {
-    background-color: #f4f4fd;
+background-color: #f4f4fd;
 }
 
 .our_team_title {
