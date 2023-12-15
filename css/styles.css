@@ -244,10 +244,10 @@ border-width: inherit;
 
 .advantage_list {
 display: flex;
-justify-content: space-between;
+
 gap: 24px;
 padding-inline-start: 0;
-margin-bottom: 120px;
+
 }
 
 .advantage_item {
